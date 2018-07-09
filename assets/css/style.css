@@ -10,6 +10,7 @@ body {
 .main-box {
     /* min-height: 60vh; */
     background-color: lightskyblue;
+    overflow:auto;
 }
 
 .box-header {
@@ -81,14 +82,28 @@ body {
     img {
         width: 90vw;
     }
+    .btn {
+        white-space: pre-wrap;
+    }
     .main-box {
         width: 95vw;
         margin-bottom: 10px;
     }
+    #question {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .multiple-choice {
+        width: 90vw;
+        margin: 0 auto;
+    }
     .box-header {
         text-align: center;
     }
-    
+    .overflow {
+        overflow: auto;
+        margin: 0 auto;
+    }
     a:hover {
         border: none;
         background: none;

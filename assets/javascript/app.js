@@ -97,7 +97,7 @@ $(document).ready(function () {
             c: "Music",
             d: "Food/Water",
             nextQuestion: function () {
-                $('#question').html('<div class="jerry">Only a Jerry would take a personality quiz to see if he were a Rick...get it together Jer...get it together...</div><img src="../RickJerryQuiz/assets/images/Jerry_Worm.gif"/>');
+                $('#question').html('<div class="jerry">Only a Jerry would take a personality quiz...get it together Jer...get it together...</div><img src="../RickJerryQuiz/assets/images/Jerry_Worm.gif"/>');
                 $('#answer-box').html('<div><div class="btn btn-outline-dark restart">Restart?</div></div>');               
                 $('.restart').on("click", function() {
                     reset();
@@ -110,10 +110,10 @@ $(document).ready(function () {
         var currentQuestion = questionNumber.q;
         $('.first-gif').empty();
         $('.question-block').html('<div class="sub-box"><div class="text-center" id="question">' +
-            currentQuestion + '</div><div class="mx-auto text-center" id="answer-box"><button class="col-md-8 btn mx-auto multiple-choice" id="a">' +
+            currentQuestion + '</div><div class="col-md-12 mx-auto text-center" id="answer-box"><button class="col-md-8 btn mx-auto multiple-choice" id="a">' +
             questionNumber.a +
-            '</button><button class="col-md-8 btn mx-auto multiple-choice" id="b">' +
-            questionNumber.b +
+            '</button><button class="col-md-8 btn mx-auto multiple-choice" id="b">' + 
+            questionNumber.b + 
             '</button><button class="col-md-8 btn mx-auto multiple-choice" id="c">' +
             questionNumber.c +
             '</button><button class="col-md-8 btn mx-auto multiple-choice" id="d">' +
