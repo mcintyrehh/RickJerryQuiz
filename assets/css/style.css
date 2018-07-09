@@ -1,0 +1,96 @@
+body {
+    background-image: url(../images/science.png);
+    font-family: 'Roboto';
+}
+
+.btn-text {
+    border-color: black;
+    color: black;
+}
+.main-box {
+    /* min-height: 60vh; */
+    background-color: lightskyblue;
+}
+
+.box-header {
+    font-family: 'Righteous';
+    text-shadow:2px 2px 0 rgb(0, 0, 0);
+}
+
+.start {
+    color: #ff7665;
+    border-color: #ff7665;
+    border-width: 5pt;
+    font-size: 50pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.restart {
+    color: lime;
+    border-color: #ff7665;
+    border-width: 5pt;
+    font-size: 50pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 0 rgb(0, 0, 0);
+}
+
+.question-block {
+    height: 100%;
+}
+#question {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.multiple-choice {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border: 2pt solid lightskyblue;
+}
+.multiple-choice:hover {
+    border: 2pt solid #ff7665;
+}
+.footer {
+    height: 20px;
+}
+.nope {
+    font-size: 40pt;
+    color: red;
+    font-family: 'Righteous';
+    text-shadow:2px 2px 0 rgb(0, 0, 0);
+}
+.yup {
+    font-size: 40pt;
+    color: lime;
+    font-family: 'Righteous';
+    text-shadow:2px 2px 0 rgb(0, 0, 0);
+}
+.jerry {
+    font-size: 30pt;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        justify-content: center;
+    }
+    img {
+        width: 90vw;
+    }
+    .main-box {
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .box-header {
+        text-align: center;
+    }
+    
+    a:hover {
+        border: none;
+        background: none;
+    }
+}
