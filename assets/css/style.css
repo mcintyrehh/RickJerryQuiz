@@ -82,6 +82,9 @@ body {
     img {
         width: 90vw;
     }
+    body {
+        min-height: 100vh;
+    }
     .btn {
         white-space: pre-wrap;
     }
